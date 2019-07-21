@@ -14,5 +14,15 @@ This tool can be used to generate short url and also can be used to upload a fil
 * Create Project `django-admin startproject myproject`
 * Move to project Dir and Run server `python manage.py runserver`
 * Create an app `python manage.py startapp app_name`
-* Migrate database `python manage.py makemigrations app_name`
+* Migrate database `python manage.py makemigrations app_name` It just create queries but does't execute it, next step make it happen in database.
+* Migrate all `python manage.py migrate`
 * See the changes made in migration `python manage.py sqlmigrate app_name migration_id(ex 0001)`
+* Create admin user `python manage.py createsuperuser`
+
+
+# Url Shortner
+* SuperUser credentials `username: admin` `pass: root`
+
+## rest_api
+* Use url `http://localhost:8000/tinyurl/api/myurl/` for all rest api action
+

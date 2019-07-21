@@ -8,3 +8,6 @@ class TinyUrl(models.Model):
     class Meta:
         db_table = "tiny_url"
 
+    def __str__(self):
+        return f'{self.url_id} | {self.url}'
+
