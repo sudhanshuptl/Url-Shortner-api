@@ -7,7 +7,7 @@ This tool can be used to generate short url and also can be used to upload a fil
  3. Activate virtual environment (mac/linux) `source mypython/bin/activate` 
  4. Activate virtual environment(Windows) `mypthon\Scripts\activate`
  5. Install Django : `pip install django`
- 6. Install Django rest Framework `pip install djangorestframework`
+ 6. Install Django rest Framework `pip install djangorestframework` `pip install djangorestframework-jwt`
  7. Deactivate virtualenv `deactivate`
  
 # Django Basic Commands <[Read Full Doc](https://docs.djangoproject.com/en/2.2/intro/tutorial01/)>
@@ -26,3 +26,7 @@ This tool can be used to generate short url and also can be used to upload a fil
 ## rest_api
 * Use url `http://localhost:8000/tinyurl/api/myurl/` for all rest api action
 
+
+
+# Resources to refer
+* [jwt](https://www.youtube.com/watch?v=Fhcn2qx-4VQ)
