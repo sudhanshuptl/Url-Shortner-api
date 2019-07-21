@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',  # Added Rest frameWork application
+    'UrlShorter.apps.UrlshorterConfig',  # Register my new app
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
