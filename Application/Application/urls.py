@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('urlshort/', include('UrlShorter.urls')),
+    path('tinyurl/', include('UrlShorter.urls')),
     path('admin/', admin.site.urls),
 ]
