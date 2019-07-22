@@ -15,8 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from UrlShorter.views import i_want_to_go_to_my_url
+
 
 urlpatterns = [
     path('tinyurl/', include('UrlShorter.urls')),
     path('admin/', admin.site.urls),
+    path('myurl/<str:my_tiny_url>', i_want_to_go_to_my_url, name="to_my_url"),
 ]

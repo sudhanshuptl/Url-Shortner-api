@@ -22,6 +22,8 @@ This tool can be used to generate short url and also can be used to upload a fil
 
 # Url Shortner
 * SuperUser credentials `username: admin` `pass: root`
+* Regirect to your url using `http://localhost:8000/myurl/<Your_site_code_you>` `Your_site_code_you` is unique code you got  when you registered your link
+* you can also register at `http://localhost:8000/tinyurl/api/myurl/`
 
 ## rest_api
 * Use url `http://localhost:8000/tinyurl/api/myurl/` for all rest api action
