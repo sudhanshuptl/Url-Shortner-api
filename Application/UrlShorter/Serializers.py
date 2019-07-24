@@ -13,7 +13,7 @@ class TinyUrlSerializer(serializers.ModelSerializer):
         fields = ('my_url', 'url')
 
     def get_my_url(self, obj):
-        return f'http://localhost:8000/{reverse("to_my_url", kwargs={"my_tiny_url": base_converter_from_base10(obj.my_url)})}'
+        return f'http://localhost:8000{reverse("to_my_url", kwargs={"my_tiny_url": base_converter_from_base10(obj.my_url)})}'
 
 
 
